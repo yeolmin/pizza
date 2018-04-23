@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\topping">
+      <UniqueIdentifier>{5c0f8586-f541-430a-b8de-74465a2e5bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pizza">
+      <UniqueIdentifier>{f4433957-da2e-4816-811d-9813f06e860b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pizza">
+      <UniqueIdentifier>{fbd36a02-790f-4d31-95ea-7bbc6f2bb905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\topping">
+      <UniqueIdentifier>{dd690731-9bfb-4def-922a-547951259b81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PizzaFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Heaven.cpp">
+      <Filter>Source Files\pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="Mister.cpp">
+      <Filter>Source Files\pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="Domino.cpp">
+      <Filter>Source Files\pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="School.cpp">
+      <Filter>Source Files\pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="Pizza.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PizzaDecorator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ToppingFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chicken.cpp">
+      <Filter>Source Files\topping</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PizzaFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="beef.h">
+      <Filter>Header Files\topping</Filter>
+    </ClInclude>
+    <ClInclude Include="shrimp.h">
+      <Filter>Header Files\topping</Filter>
+    </ClInclude>
+    <ClInclude Include="pepperoni.h">
+      <Filter>Header Files\topping</Filter>
+    </ClInclude>
+    <ClInclude Include="Domino.h">
+      <Filter>Header Files\pizza</Filter>
+    </ClInclude>
+    <ClInclude Include="Mister.h">
+      <Filter>Header Files\pizza</Filter>
+    </ClInclude>
+    <ClInclude Include="School.h">
+      <Filter>Header Files\pizza</Filter>
+    </ClInclude>
+    <ClInclude Include="Heaven.h">
+      <Filter>Header Files\pizza</Filter>
+    </ClInclude>
+    <ClInclude Include="Pizza.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PizzaDecorator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ToppingFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="chicken.h">
+      <Filter>Header Files\topping</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

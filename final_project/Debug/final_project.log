@@ -1,0 +1,18 @@
+﻿Build started 2018-04-20 오후 3:54:06.
+     1>Project "c:\Users\Apple\documents\visual studio 2013\Projects\final_project\final_project\final_project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PizzaDecorator.cpp chicken.cpp
+         chicken.cpp
+     1>c:\users\apple\documents\visual studio 2013\projects\final_project\final_project\chicken.cpp(21): error C2664: 'RegisterTopping::RegisterTopping(const RegisterTopping &)' : cannot convert argument 2 from 'std::unique_ptr<Pizza,std::default_delete<_Ty>> (__cdecl &&)(std::unique_ptr<_Ty,std::default_delete<_Ty>> &&)' to 'std::unique_ptr<Pizza,std::default_delete<_Ty>> (__cdecl *)(std::unique_ptr<_Ty,std::default_delete<_Ty>>)'
+                 with
+                 [
+                     _Ty=Pizza
+                 ]
+                 This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+         PizzaDecorator.cpp
+         Generating Code...
+     1>Done Building Project "c:\Users\Apple\documents\visual studio 2013\Projects\final_project\final_project\final_project.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.89
