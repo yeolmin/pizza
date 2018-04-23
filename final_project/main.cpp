@@ -19,6 +19,9 @@ int main()
 	vector<unique_ptr<Pizza>> v;
 	pFac.GetPizzaList();
 
+
+	//git을위해 걍달아보는 주석
+
 	while (1)
 	{
 		string cmd;
